@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sleeping_&_Wakeup (32 x 32)_0: 2704492546413654120
+      Sleeping_&_Wakeup (32 x 32)_1: 2675756520602215355
+      Sleeping_&_Wakeup (32 x 32)_2: -8496935682489877020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Laughing (32 x 32)_0: 4023702680386605150
+      Laughing (32 x 32)_1: 2556526904030767393
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

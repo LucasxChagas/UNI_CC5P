@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Half_Health_Punch (32 x 32)_0: 7643456907916563127
+      Half_Health_Punch (32 x 32)_1: 7940166842969960315
+      Half_Health_Punch (32 x 32)_2: -5731154992871689569
+      Half_Health_Punch (32 x 32)_3: 2811886183351662323
+      Half_Health_Punch (32 x 32)_4: -7585666398854497791
+      Half_Health_Punch (32 x 32)_5: 3490452044777174208
+      Half_Health_Punch (32 x 32)_6: -295284903362424937
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

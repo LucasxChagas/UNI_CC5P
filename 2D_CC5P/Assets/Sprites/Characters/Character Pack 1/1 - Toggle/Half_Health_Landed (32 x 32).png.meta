@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Half_Health_Landed (32 x 32)_0: 6030023569440203244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

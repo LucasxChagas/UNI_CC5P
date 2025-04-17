@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tail_Whip (32 x 32)_0: 8503605206385725594
+      Tail_Whip (32 x 32)_1: 6627037833333694124
+      Tail_Whip (32 x 32)_2: -5133939103652273024
+      Tail_Whip (32 x 32)_3: -4597070733857620829
+      Tail_Whip (32 x 32)_4: 2785010229580994024
+      Tail_Whip (32 x 32)_5: 9203121562072462431
+      Tail_Whip (32 x 32)_6: 295737689415426616
+      Tail_Whip (32 x 32)_7: 9053228474798840145
+      Tail_Whip (32 x 32)_8: 6175081428054100004
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

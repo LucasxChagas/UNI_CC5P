@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lying_On_Ground (16 x 16)_0: 5569223975966743969
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

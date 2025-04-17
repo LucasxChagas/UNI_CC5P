@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aerial_Shooting_Fireball (32 x 32)_0: -8864470510492116124
+      Aerial_Shooting_Fireball (32 x 32)_1: 2029609961310705641
+      Aerial_Shooting_Fireball (32 x 32)_2: -8940553717233116864
+      Aerial_Shooting_Fireball (32 x 32)_3: -7047020914435962086
+      Aerial_Shooting_Fireball (32 x 32)_4: -4269573403208421031
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

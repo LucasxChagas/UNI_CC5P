@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spinning_Punch (32 x 32)_0: 8398538671735219400
+      Spinning_Punch (32 x 32)_1: 1505030971990058661
+      Spinning_Punch (32 x 32)_2: -3957570915283322489
+      Spinning_Punch (32 x 32)_3: -6511676724477391554
+      Spinning_Punch (32 x 32)_4: 7945610259452117634
+      Spinning_Punch (32 x 32)_5: -2744128255189095343
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

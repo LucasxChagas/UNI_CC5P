@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Miscellaneous_Poses (32 x 32)_0: 8709224592644389054
+      Miscellaneous_Poses (32 x 32)_1: -7937910100910888591
+      Miscellaneous_Poses (32 x 32)_2: 1474509812949198504
+      Miscellaneous_Poses (32 x 32)_3: 6183005906435974228
+      Miscellaneous_Poses (32 x 32)_4: -1080447809783205734
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

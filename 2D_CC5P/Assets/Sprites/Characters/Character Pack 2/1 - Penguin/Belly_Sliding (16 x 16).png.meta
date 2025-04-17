@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Belly_Sliding (16 x 16)_0: -4548717540593119400
+      Belly_Sliding (16 x 16)_1: 5750758711995246085
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

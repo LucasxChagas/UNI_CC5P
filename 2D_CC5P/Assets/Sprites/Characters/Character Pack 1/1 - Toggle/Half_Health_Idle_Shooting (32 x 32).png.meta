@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Half_Health_Idle_Shooting (32 x 32)_0: -4458378418291305368
+      Half_Health_Idle_Shooting (32 x 32)_1: 2056199678608214032
+      Half_Health_Idle_Shooting (32 x 32)_2: 3359703638593164266
+      Half_Health_Idle_Shooting (32 x 32)_3: -3857090895582443025
+      Half_Health_Idle_Shooting (32 x 32)_4: -3788800082517489830
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

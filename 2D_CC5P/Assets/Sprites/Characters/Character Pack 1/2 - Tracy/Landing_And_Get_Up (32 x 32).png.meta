@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Landing_And_Get_Up (32 x 32)_0: 3307485855010673526
+      Landing_And_Get_Up (32 x 32)_1: 5881207018647094287
+      Landing_And_Get_Up (32 x 32)_2: 4399649919233716157
+      Landing_And_Get_Up (32 x 32)_3: -7724813686792955592
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

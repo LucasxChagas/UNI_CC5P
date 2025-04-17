@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spinning_Bone (16 x 16)_0: 1613402506272726801
+      Spinning_Bone (16 x 16)_1: 3092658129504557750
+      Spinning_Bone (16 x 16)_2: 3037397523889377365
+      Spinning_Bone (16 x 16)_3: -37269671335314200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

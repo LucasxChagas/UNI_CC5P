@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Waddling (16 x 16)_0: 4779777429836628075
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Half_Health_Landed_Shooting (32 x 32)_0: 3921086397495497263
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

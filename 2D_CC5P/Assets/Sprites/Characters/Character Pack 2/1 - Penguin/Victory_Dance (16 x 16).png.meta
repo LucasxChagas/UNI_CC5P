@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Victory_Dance (16 x 16)_0: 4955861461860883846
+      Victory_Dance (16 x 16)_1: 6926832370147280287
+      Victory_Dance (16 x 16)_2: -1094704583855064378
+      Victory_Dance (16 x 16)_3: 8041913445842910665
+      Victory_Dance (16 x 16)_4: 5466871174827742720
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

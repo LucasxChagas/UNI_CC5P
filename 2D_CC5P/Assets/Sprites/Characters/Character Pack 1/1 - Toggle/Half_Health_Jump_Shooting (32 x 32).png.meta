@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Half_Health_Jump_Shooting (32 x 32)_0: -6086901362372279899
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Slide_Turn_Around (32 x 32)_0: 7399109781755846982
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

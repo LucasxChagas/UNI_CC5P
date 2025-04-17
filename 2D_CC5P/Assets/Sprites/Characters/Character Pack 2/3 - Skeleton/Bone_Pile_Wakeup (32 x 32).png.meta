@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bone_Pile_Wakeup (32 x 32)_0: 432997322609240129
+      Bone_Pile_Wakeup (32 x 32)_1: 3264081649140431800
+      Bone_Pile_Wakeup (32 x 32)_2: -3280895576319842006
+      Bone_Pile_Wakeup (32 x 32)_3: -7016315424345837747
+      Bone_Pile_Wakeup (32 x 32)_4: 7179269735887873329
+      Bone_Pile_Wakeup (32 x 32)_5: 476853332605396426
+      Bone_Pile_Wakeup (32 x 32)_6: 4015367513189613915
+      Bone_Pile_Wakeup (32 x 32)_7: -5403663116436946393
+      Bone_Pile_Wakeup (32 x 32)_8: -6973012412721749672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

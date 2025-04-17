@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Standing_Crossbow_Shot (32 x 32)_0: -1728112173103456846
+      Standing_Crossbow_Shot (32 x 32)_1: -1764673580749803406
+      Standing_Crossbow_Shot (32 x 32)_2: -3294204748371495124
+      Standing_Crossbow_Shot (32 x 32)_3: 3594088207365038481
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

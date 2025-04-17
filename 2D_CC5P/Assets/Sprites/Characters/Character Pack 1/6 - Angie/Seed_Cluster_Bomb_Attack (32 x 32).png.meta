@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Seed_Cluster_Bomb_Attack (32 x 32)_0: 2563471756508837457
+      Seed_Cluster_Bomb_Attack (32 x 32)_1: -410072295651443196
+      Seed_Cluster_Bomb_Attack (32 x 32)_2: -3500076553925068890
+      Seed_Cluster_Bomb_Attack (32 x 32)_3: -5901387484472996378
+      Seed_Cluster_Bomb_Attack (32 x 32)_4: 4341712127195169113
+      Seed_Cluster_Bomb_Attack (32 x 32)_5: 7085298777723184390
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

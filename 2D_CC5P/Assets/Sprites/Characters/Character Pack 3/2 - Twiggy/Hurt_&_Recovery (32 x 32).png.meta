@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hurt_&_Recovery (32 x 32)_0: 382494803222272005
+      Hurt_&_Recovery (32 x 32)_1: 6077726187186624024
+      Hurt_&_Recovery (32 x 32)_2: -4925165342727504520
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

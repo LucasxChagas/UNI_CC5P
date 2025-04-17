@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Climbing (32 x 32)_0: -871754540582888513
+      Climbing (32 x 32)_1: -7361892408920683622
+      Climbing (32 x 32)_2: 5368496651680507657
+      Climbing (32 x 32)_3: 95154839175442008
+      Climbing (32 x 32)_4: 4700926483176212524
+      Climbing (32 x 32)_5: -3391256870173271798
+      Climbing (32 x 32)_6: 2427559503895459800
+      Climbing (32 x 32)_7: 74739056837420666
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

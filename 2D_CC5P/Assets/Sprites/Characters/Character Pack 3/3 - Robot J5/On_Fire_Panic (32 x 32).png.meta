@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      On_Fire_Panic (32 x 32)_0: -4797721429783557012
+      On_Fire_Panic (32 x 32)_1: 1215491157801253709
+      On_Fire_Panic (32 x 32)_2: -9096593084058184265
+      On_Fire_Panic (32 x 32)_3: 899107940905210754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crouching_Shooting (32 x 32)_0: -8394204765886621733
+      Crouching_Shooting (32 x 32)_1: 4759655525706477192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

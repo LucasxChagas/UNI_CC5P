@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blink (16 x 16)_0: -2584869664739227912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Limping_Movement (32 x 32)_0: -8302344488518559490
+      Limping_Movement (32 x 32)_1: -1210806851778230848
+      Limping_Movement (32 x 32)_2: 2329032791257314329
+      Limping_Movement (32 x 32)_3: -5471153626546324010
+      Limping_Movement (32 x 32)_4: -8914270603292963119
+      Limping_Movement (32 x 32)_5: -5658831555917145577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

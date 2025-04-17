@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Drill_Attack_Start (32 x 32)_0: 2252804373914910598
+      Drill_Attack_Start (32 x 32)_1: 6031998455542629365
+      Drill_Attack_Start (32 x 32)_2: 2095022592657029453
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

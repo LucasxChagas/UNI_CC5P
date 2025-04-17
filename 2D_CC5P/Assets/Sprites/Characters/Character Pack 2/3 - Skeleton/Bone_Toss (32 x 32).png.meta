@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bone_Toss (32 x 32)_0: -3610007146018309830
+      Bone_Toss (32 x 32)_1: 4071435019239392016
+      Bone_Toss (32 x 32)_2: -2367750341312313174
+      Bone_Toss (32 x 32)_3: -3226309315439738684
+      Bone_Toss (32 x 32)_4: 8087674757372281109
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

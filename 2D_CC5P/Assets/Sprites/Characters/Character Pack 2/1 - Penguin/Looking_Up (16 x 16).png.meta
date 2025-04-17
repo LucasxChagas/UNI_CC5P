@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Looking_Up (16 x 16)_0: -5352145487278152923
+      Looking_Up (16 x 16)_1: -3323508622524253468
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

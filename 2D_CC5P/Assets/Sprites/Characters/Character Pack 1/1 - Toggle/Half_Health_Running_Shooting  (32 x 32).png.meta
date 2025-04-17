@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Half_Health_Running_Shooting  (32 x 32)_0: 137078934923304560
+      Half_Health_Running_Shooting  (32 x 32)_1: 3982154089278966077
+      Half_Health_Running_Shooting  (32 x 32)_2: 4990396360072974056
+      Half_Health_Running_Shooting  (32 x 32)_3: 252552460785306518
+      Half_Health_Running_Shooting  (32 x 32)_4: 1603275747264707369
+      Half_Health_Running_Shooting  (32 x 32)_5: 9219647073232413293
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

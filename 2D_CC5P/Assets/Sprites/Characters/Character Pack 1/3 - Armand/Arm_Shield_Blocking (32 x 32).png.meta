@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Arm_Shield_Blocking (32 x 32)_0: 140163561288542076
+      Arm_Shield_Blocking (32 x 32)_1: 278792191839645201
+      Arm_Shield_Blocking (32 x 32)_2: -6547447869822096016
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

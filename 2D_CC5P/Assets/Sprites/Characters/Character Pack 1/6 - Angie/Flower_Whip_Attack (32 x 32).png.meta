@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flower_Whip_Attack (32 x 32)_0: 8676479318447980602
+      Flower_Whip_Attack (32 x 32)_1: 9023210615936792224
+      Flower_Whip_Attack (32 x 32)_2: 3788336175114715261
+      Flower_Whip_Attack (32 x 32)_3: 4681407586685929242
+      Flower_Whip_Attack (32 x 32)_4: -7760414658436668643
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

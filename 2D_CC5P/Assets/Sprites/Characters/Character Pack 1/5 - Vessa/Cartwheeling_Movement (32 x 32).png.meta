@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cartwheeling_Movement (32 x 32)_0: -7218399802361529285
+      Cartwheeling_Movement (32 x 32)_1: -3151037844857360462
+      Cartwheeling_Movement (32 x 32)_2: -3576147469862394956
+      Cartwheeling_Movement (32 x 32)_3: -4929569798821109779
+      Cartwheeling_Movement (32 x 32)_4: 3859364905799319891
+      Cartwheeling_Movement (32 x 32)_5: 902910086420976682
+      Cartwheeling_Movement (32 x 32)_6: -1191819014152730217
+      Cartwheeling_Movement (32 x 32)_7: 5975373908085347947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

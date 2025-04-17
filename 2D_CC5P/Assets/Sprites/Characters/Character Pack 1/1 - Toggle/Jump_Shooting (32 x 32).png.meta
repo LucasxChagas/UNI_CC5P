@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Jump_Shooting (32 x 32)_0: 3424736742860234992
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Victory_Pose (32 x 32)_0: 701716325382193579
+      Victory_Pose (32 x 32)_1: 7516524128129699863
+      Victory_Pose (32 x 32)_2: -5246407434470531435
+      Victory_Pose (32 x 32)_3: 5985129340481031460
+      Victory_Pose (32 x 32)_4: -9148448381476182390
+      Victory_Pose (32 x 32)_5: 8990596555342190440
+      Victory_Pose (32 x 32)_6: 5574708152361408873
+      Victory_Pose (32 x 32)_7: 8475605319662706666
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

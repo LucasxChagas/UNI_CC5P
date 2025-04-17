@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aerial_Crossbow_Shot (32 x 32)_0: 3284630435507682604
+      Aerial_Crossbow_Shot (32 x 32)_1: 7217494717584665885
+      Aerial_Crossbow_Shot (32 x 32)_2: -8628413862960727310
+      Aerial_Crossbow_Shot (32 x 32)_3: 2579955374229196233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

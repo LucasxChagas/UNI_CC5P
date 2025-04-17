@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Half_Health_Falling (32 x 32)_0: -1171707784163215744
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

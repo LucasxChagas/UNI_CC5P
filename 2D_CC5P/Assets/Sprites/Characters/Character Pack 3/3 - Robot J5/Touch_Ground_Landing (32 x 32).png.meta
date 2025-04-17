@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Touch_Ground_Landing (32 x 32)_0: -6909878366690949788
+      Touch_Ground_Landing (32 x 32)_1: -6935436532594481189
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

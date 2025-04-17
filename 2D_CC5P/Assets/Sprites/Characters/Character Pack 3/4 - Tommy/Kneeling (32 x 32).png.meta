@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kneeling (32 x 32)_0: 76622551848012949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Looking_Off (16 x 16)_0: -1709883971117870217
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crumbling_Into_Bone_Pile (32 x 32)_0: -773048627948078720
+      Crumbling_Into_Bone_Pile (32 x 32)_1: -5128015523367808478
+      Crumbling_Into_Bone_Pile (32 x 32)_2: -383823308744104871
+      Crumbling_Into_Bone_Pile (32 x 32)_3: 7968580157766588107
+      Crumbling_Into_Bone_Pile (32 x 32)_4: 5428300226536217212
+      Crumbling_Into_Bone_Pile (32 x 32)_5: -8115220881291236329
+      Crumbling_Into_Bone_Pile (32 x 32)_6: -2819514643888943951
+      Crumbling_Into_Bone_Pile (32 x 32)_7: 6866830725335476550
+      Crumbling_Into_Bone_Pile (32 x 32)_8: -3066521393093270986
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Arrow_Deflected_Spin (16 x 16)_0: -8118509930805712677
+      Arrow_Deflected_Spin (16 x 16)_1: -8045300472953130897
+      Arrow_Deflected_Spin (16 x 16)_2: 6436171000856209532
+      Arrow_Deflected_Spin (16 x 16)_3: 2984792474848877157
+      Arrow_Deflected_Spin (16 x 16)_4: 1375923684679341428
+      Arrow_Deflected_Spin (16 x 16)_5: -1093959806164131711
+      Arrow_Deflected_Spin (16 x 16)_6: 1847881357760265323
+      Arrow_Deflected_Spin (16 x 16)_7: -9107081017191297514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

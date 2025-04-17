@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Drill_Attack_End_Aerial (32 x 32)_0: 9651478845363907
+      Drill_Attack_End_Aerial (32 x 32)_1: -8453322841922741097
+      Drill_Attack_End_Aerial (32 x 32)_2: -586627443679514647
+      Drill_Attack_End_Aerial (32 x 32)_3: 8327770271138394278
+      Drill_Attack_End_Aerial (32 x 32)_4: 3360214850931335420
+      Drill_Attack_End_Aerial (32 x 32)_5: 668851404016817867
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

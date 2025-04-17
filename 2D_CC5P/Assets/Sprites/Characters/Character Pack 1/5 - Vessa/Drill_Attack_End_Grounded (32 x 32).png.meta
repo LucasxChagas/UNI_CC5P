@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Drill_Attack_End_Grounded (32 x 32)_0: 7723083980244265899
+      Drill_Attack_End_Grounded (32 x 32)_1: -6916960596632932890
+      Drill_Attack_End_Grounded (32 x 32)_2: 7794509224951510082
+      Drill_Attack_End_Grounded (32 x 32)_3: 5932667559587538162
+      Drill_Attack_End_Grounded (32 x 32)_4: 7876833414355140535
+      Drill_Attack_End_Grounded (32 x 32)_5: -6586484233594928850
+      Drill_Attack_End_Grounded (32 x 32)_6: 7318312279572657197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

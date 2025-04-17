@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Half_Health_Crouch (32 x 32)_0: -3316890805868139108
+      Half_Health_Crouch (32 x 32)_1: 4418990534628186155
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
