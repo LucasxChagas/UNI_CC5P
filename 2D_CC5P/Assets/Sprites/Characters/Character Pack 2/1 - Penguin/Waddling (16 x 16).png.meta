@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15b7a17283bd3a74d93f42db63e496a7
-      internalID: 1214266234
+      spriteID: f341e0c2e1a1177e0800000000000000
+      internalID: -1769604461689433025
       vertices: []
       indices: 
       edges: []
@@ -159,8 +159,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7be971ddde7a2a4b892bee0ab921584
-      internalID: 1544794627
+      spriteID: f0a078af4c0d5f94ca802ad8362b00fa
+      internalID: -2012051608
       vertices: []
       indices: 
       edges: []
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c850a653c461f7d4bad6d383eab852bc
-      internalID: -1102210735
+      spriteID: bf06564ed8433784da0eb1c7f51f899e
+      internalID: -632590684
       vertices: []
       indices: 
       edges: []
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c22a25a1e1377aa47992b19794191560
-      internalID: -1221281664
+      spriteID: 24881e6cd3daffd46b808f9606d7443c
+      internalID: -2043111607
       vertices: []
       indices: 
       edges: []
@@ -225,8 +225,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce5085acfb564604a928fe1da0512a35
-      internalID: -1306431277
+      spriteID: a00532113429d9f47b7bf9e854922068
+      internalID: 1455629303
       vertices: []
       indices: 
       edges: []
@@ -235,7 +235,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b8b0889bee967464ea864092fd6bc5b7
+    spriteID: 5c175d0fe6d52d14982cac418a72df7b
     internalID: 0
     vertices: []
     indices: 
@@ -246,11 +246,11 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Waddling (16 x 16)_0: 4779777429836628075
-      Waddling (16 x 16)_1: 1214266234
-      Waddling (16 x 16)_2: 1544794627
-      Waddling (16 x 16)_3: -1102210735
-      Waddling (16 x 16)_4: -1221281664
-      Waddling (16 x 16)_5: -1306431277
+      Waddling (16 x 16)_1: -1769604461689433025
+      Waddling (16 x 16)_2: -2012051608
+      Waddling (16 x 16)_3: -632590684
+      Waddling (16 x 16)_4: -2043111607
+      Waddling (16 x 16)_5: 1455629303
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

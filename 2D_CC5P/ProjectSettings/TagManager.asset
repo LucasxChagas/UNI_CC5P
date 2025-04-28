@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Switch
+  - Ground
   layers:
   - Default
   - TransparentFX
