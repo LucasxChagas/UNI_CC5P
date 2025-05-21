@@ -27,6 +27,12 @@ public class Player : MonoBehaviour
         UpdateAnimator();
         UpdateOrientation();
         Jump();
+
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            // Exemplo de uso do PlayerCanvas
+            PlayerCanvas.Instance.SetDamage(Random.Range(0, 999));
+        }
     }
 
     private void FixedUpdate()

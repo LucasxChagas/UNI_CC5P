@@ -9,6 +9,7 @@ public class PlayerScript : MonoBehaviour
 
     [Header("Referências")]
     [SerializeField] private CinemachineCamera virtualCamera;
+    [SerializeField] private Animator anim;
 
     private Rigidbody rb;
     private Vector3 moveDirection;
@@ -26,6 +27,9 @@ public class PlayerScript : MonoBehaviour
 
         // Calcula a direção do movimento
         CalculateMoveDirection();
+
+        //Atualiza Animator
+        UpdateAnimator();
     }
 
     private void FixedUpdate()
@@ -71,5 +75,17 @@ public class PlayerScript : MonoBehaviour
 
         Quaternion targetRotation = Quaternion.LookRotation(direction);
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+    }
+
+    private void UpdateAnimator()
+    {
+        if(rb.linearVelocity.magnitude > 0.1f)
+        {
+            anim.SetBool("IsWalking", true);
+        }
+        else
+        {
+            anim.SetBool("IsWalking", false);
+        }
     }
 }
