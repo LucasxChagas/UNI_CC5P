@@ -16,7 +16,7 @@ public class Projectile : MonoBehaviour
         {
             Destroy(gameObject);
             //Causar Dano ao Player
-            playerCollider.GetComponent<Player>().TakeDamage();
+            playerCollider.GetComponent<Player>().TakeDamage(this.transform.position - playerCollider.transform.position);
         }
     }
 }

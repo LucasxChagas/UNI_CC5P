@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,6 +7,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private float movementSpeed = 5f;
     [SerializeField] private float jumpForce = 15f;
+    [SerializeField] private float impactJumpForce = 10f;
 
     private Vector2 movementInputs;
     private Rigidbody2D rb;
@@ -23,6 +25,18 @@ public class Player : MonoBehaviour
     [SerializeField] private int maxHealth = 5;
     [SerializeField] private int currentHealth;
 
+    [Header("Invencibility Settings")]
+    [SerializeField] private float invencibilityDuration = 2f;
+    [SerializeField] private float flashInterval = 0.2f;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    private bool isInvencible = false;
+
+    [Header("Knockback Settings")]
+    [SerializeField] private float knockbackForceX = 10f;
+    [SerializeField] private float KnockbackForceY = 12.5f;
+    [SerializeField] private float knockbackDuration = 0.5f;
+    private bool isKnockedback = false;
+    
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -39,7 +53,10 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Move();
+        if(!isKnockedback)
+        {
+            Move();
+        }
     }
 
     private bool IsGrounded()
@@ -116,9 +133,54 @@ public class Player : MonoBehaviour
         Gizmos.DrawWireSphere(this.transform.position + groundCheckOffset, groundCheckRadius);
     }
 
-    public void TakeDamage(int amount = 1)
+    public void TakeDamage(Vector2 knockbackDirection, int amount = 1)
     {
-        currentHealth -= amount;
-        Debug.Log($"Player recebeu {amount} de dano. Vida Atual: {currentHealth}");
+        if (!isInvencible)
+        {
+            currentHealth -= amount;
+            isKnockedback = true;
+            StartCoroutine(Knockback(knockbackDirection.magnitude > 0 ? Vector3.one : -Vector3.one));
+            StartCoroutine(BecomeInvencible());
+        }
+    }
+
+    private IEnumerator Knockback(Vector2 direction)
+    {
+        rb.linearVelocity = Vector2.zero; // Reseta a velocidade atual para evitar acumulo de forças
+        rb.linearVelocity = new Vector2(-direction.x * knockbackForceX, direction.y * KnockbackForceY);
+        yield return new WaitForSeconds(knockbackDuration);
+        isKnockedback = false;
+    }
+
+    private IEnumerator BecomeInvencible()
+    {
+        isInvencible = true;
+
+        float elapsedTime = 0f;
+        while (elapsedTime < invencibilityDuration)
+        {
+            // Flash Effect
+            spriteRenderer.enabled = !spriteRenderer.enabled;
+            yield return new WaitForSeconds(flashInterval);
+            elapsedTime += flashInterval;
+        }
+
+        isInvencible = false;
+        spriteRenderer.enabled = true;
+    }
+
+    private void ImpactJumpEffect()
+    {
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, impactJumpForce);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("EnemyHurtArea") && IsFalling)
+        {
+
+            collision.GetComponent<EnemyHurtArea>().TakeDamage();
+            ImpactJumpEffect();
+        }
     }
 }
