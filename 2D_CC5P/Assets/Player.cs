@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     // Configuração para estados "IsOnTheAir"
     private int IsOnTheAirValue;
 
+    [SerializeField] private AudioClip landClip;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
