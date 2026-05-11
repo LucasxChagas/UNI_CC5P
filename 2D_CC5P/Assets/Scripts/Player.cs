@@ -10,13 +10,10 @@ public class Player : MonoBehaviour
     private Vector2 movementInputs;
     private Rigidbody2D rb;
 
-    private bool IsWalking;
-    private bool IsOnTheGround;
-
-    // Configuração para estados "IsOnTheAir"
-    private int IsOnTheAirValue;
-
-    [SerializeField] private AudioClip landClip;
+    private bool IsWalking = false;
+    private bool IsJumping = false;
+    private bool IsFalling = false;
+    private bool IsOnTheGround = false;
 
     private void Awake()
     {
@@ -29,12 +26,6 @@ public class Player : MonoBehaviour
         UpdateAnimator();
         UpdateOrientation();
         Jump();
-
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            // Exemplo de uso do PlayerCanvas
-            PlayerCanvas.Instance.SetDamage(Random.Range(0, 999));
-        }
     }
 
     private void FixedUpdate()
@@ -65,22 +56,34 @@ public class Player : MonoBehaviour
 
     private void UpdateAnimator()
     {
-        if (rb.linearVelocity.magnitude > 0) // Está andando...
-            IsWalking = true;
-        else // Está parado...
-            IsWalking = false;
-
-        // Atualização aérea
-        if (rb.linearVelocity.y > 0.1f && !IsOnTheGround)
-            IsOnTheAirValue = 1;
-        else if (rb.linearVelocity.y < -0.1f && !IsOnTheGround)
-            IsOnTheAirValue = -1;
+        if(rb.linearVelocity.y > 0.1f)
+        {
+            IsJumping = true;
+            IsFalling = false;
+        }
+        else if(rb.linearVelocity.y < -0.1f)
+        {
+            IsJumping = false;
+            IsFalling = true;
+        }
         else
-            IsOnTheAirValue = 0;
+        {
+            IsJumping = false;
+            IsFalling = false;
 
-        // Atualiza os parâmetros no Animator, certifique-se de tê-los criado
+            if(Mathf.Abs(rb.linearVelocity.x) > 0.1f)
+            {
+                IsWalking = true;
+            }
+            else
+            {
+                IsWalking = false;
+            }
+        }
+
         animator.SetBool("IsWalking", IsWalking);
-        animator.SetInteger("IsOnTheAir", IsOnTheAirValue);
+        animator.SetBool("IsJumping", IsJumping);
+        animator.SetBool("IsFalling", IsFalling);
     }
 
     private void UpdateOrientation()
@@ -90,24 +93,5 @@ public class Player : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 0, 0);
         else if(movementInputs.x < 0)
             transform.eulerAngles = new Vector3(0, 180, 0);
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        // Certifique-se de criar a tag e atribuir ao nosso objeto "Ground"
-        if(collision.gameObject.CompareTag("Ground"))
-        {
-            // Se o personagem colide com o chão, então atualiza a variável;
-            IsOnTheGround = true;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            // Se o personagem deixa de colidir com o chão, então atualiza a variável;
-            IsOnTheGround = false;
-        }
     }
 }
