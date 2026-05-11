@@ -13,11 +13,20 @@ public class Player : MonoBehaviour
     private bool IsWalking = false;
     private bool IsJumping = false;
     private bool IsFalling = false;
-    private bool IsOnTheGround = false;
+
+    [Header("Ground Check")]
+    [SerializeField] private float groundCheckRadius = 0.2f;
+    [SerializeField] private Vector3 groundCheckOffset;
+    [SerializeField] private LayerMask groundLayer; 
+
+    [Header("Health Controller")]
+    [SerializeField] private int maxHealth = 5;
+    [SerializeField] private int currentHealth;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        currentHealth = maxHealth;
     }
 
     void Update()
@@ -31,6 +40,12 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
+    }
+
+    private bool IsGrounded()
+    {
+        // Verificamos se o personagem está tocando o chão usando um círculo de verificação
+        return Physics2D.OverlapCircle(this.transform.position + groundCheckOffset, groundCheckRadius, groundLayer);
     }
 
     private void GetInputs()
@@ -47,7 +62,7 @@ public class Player : MonoBehaviour
 
     private void Jump()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             // Mantemos a velocidade atual do personagem em X, e definimos a velocidade em Y com a força do pulo;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
@@ -93,5 +108,17 @@ public class Player : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 0, 0);
         else if(movementInputs.x < 0)
             transform.eulerAngles = new Vector3(0, 180, 0);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(this.transform.position + groundCheckOffset, groundCheckRadius);
+    }
+
+    public void TakeDamage(int amount = 1)
+    {
+        currentHealth -= amount;
+        Debug.Log($"Player recebeu {amount} de dano. Vida Atual: {currentHealth}");
     }
 }
